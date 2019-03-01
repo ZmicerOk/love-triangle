@@ -10,6 +10,6 @@ preferences.forEach(function(item, i, arr){
     result++;	
   }
 })
-
+console.log(Math.trunc(result / 3));
 return Math.trunc(result / 3);
 };
